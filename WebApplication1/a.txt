@@ -1,0 +1,13 @@
+/
+/api/values
+/
+/images/banner2.svg
+/lib/bootstrap/dist/js/bootstrap.js
+/lib/jquery/dist/jquery.js
+/js/site.js
+/images/banner4.svg
+/images/banner1.svg
+/images/banner3.svg
+/getid
+/getid
+/getid
