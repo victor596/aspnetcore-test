@@ -1,0 +1,5 @@
+http://www.cnblogs.com/artech/p/inside-asp-net-core-1.html
+
+https://github.com/TomPallister/Ocelot/tree/develop/src/Ocelot/Infrastructure/Extensions
+
+https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/index
