@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T02:46:57.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" version="14.2.9" etag="DZfD0XcmqfMIc_xkB85e" type="github"><diagram id="4QSdemVoinC-I-7O-v05">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-21T03:07:37.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="jWGHNw6Q0WV1D2YdfmTi" version="14.2.9" type="github">
+  <diagram id="4QSdemVoinC-I-7O-v05" name="Page-1">
+    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-1" target="q7EyVKqS4b9lEGtGga8R-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-1" value="开始退款流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-2" value="调用LockServiceToRefund对售后单进行加锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-6" target="q7EyVKqS4b9lEGtGga8R-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-10" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7EyVKqS4b9lEGtGga8R-9">
+          <mxGeometry x="0.42" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-6" target="q7EyVKqS4b9lEGtGga8R-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="290" />
+              <mxPoint x="290" y="690" />
+              <mxPoint x="365" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-18" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q7EyVKqS4b9lEGtGga8R-16">
+          <mxGeometry x="-0.3519" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-6" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-8" target="q7EyVKqS4b9lEGtGga8R-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-8" value="微信退款" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-11" target="q7EyVKqS4b9lEGtGga8R-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-11" value="退款成功后调用SetRefundSuccess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-14" value="流程结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-22" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-19" target="q7EyVKqS4b9lEGtGga8R-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-24" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-19" target="q7EyVKqS4b9lEGtGga8R-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-19" value="是否退款成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-23" target="q7EyVKqS4b9lEGtGga8R-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-23" value="调用UnLockServiceToRefund手工解锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-31" value="手工解锁的目的是：尽快清除锁以便其它api对此单据进行操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q7EyVKqS4b9lEGtGga8R-32" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="q7EyVKqS4b9lEGtGga8R-23" target="q7EyVKqS4b9lEGtGga8R-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
